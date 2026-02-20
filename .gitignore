@@ -1,0 +1,31 @@
+# workspace outputs
+/build/
+/install/
+/tmp/
+
+# datasets and captures
+/datasets/
+/pcaps/
+*.pcap
+*.pcapng
+
+# results that are large or raw
+/results/raw/
+
+# model artifacts
+*.tflite
+*.onnx
+*.h5
+*.pb
+*.pt
+*.pkl
+*.joblib
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# editors and OS
+.vscode/
+.DS_Store
